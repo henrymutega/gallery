@@ -1,4 +1,12 @@
-asgiref==3.3.1
-Django==3.1.7
+asgiref==3.3.4
+Django==3.2
+django-bootstrap==0.2.4
+django-bootstrap3==15.0.0
+importlib-metadata==2.1.1
+Pillow==8.2.0
+psycopg2==2.7.7
+psycopg2-binary==2.8.6
 pytz==2021.1
 sqlparse==0.4.1
+typing-extensions==3.7.4.3
+zipp==3.4.1

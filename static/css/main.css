@@ -1,0 +1,34 @@
+.one
+{
+  color: green;
+}
+h1
+{
+  color: blue;
+}
+
+.gallery
+{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+.gallery:hover
+{
+  border: 1px solid #777;
+}
+.gallery img
+{
+  width: 100%;
+  height: auto;
+}
+.desc
+{
+  padding: 15px;
+  text-align: center;
+}
+p
+{
+  color: green;
+}

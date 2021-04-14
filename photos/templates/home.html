@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{block.super}}
+
+<h1>hello</h1>
+  {% for item in photo %}
+<div class="gallery">
+    <img src="{{item.image.url}}" class="img-responsive" alt="Image">
+  <div class="desc">{{item.title}}</div>
+  <div class="desc">{{item.pub_date}}</div>
+</div>
+{% endfor %}
+
+{% endblock %}
